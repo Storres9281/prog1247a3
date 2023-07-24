@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Pepa la perra" />
+        <h1>Mr. Sandia</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact us</a>
+    </nav>
+    <main>
+        <h2>Contact Us</h2>
+        <form action="" autocomplete="on">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">
+                    Name:
+                    <input type="text" name="name" required>
+                </label>
+                <label for="email">
+                    Email:
+                    <input type="email
+                    " name="email" required>
+                </label><label for="phone">
+                    Phone:
+                    <input type="number" name="phone">
+                </label>
+                <label for="employStatus">
+                    <select name="" id="" required>
+                        <option value="Select Option" selected disabled>Select option</option>
+                        <option value="student">Student</option>
+                        <option value="full-time">Employed full time</option>
+                        <option value="part-time">Employed part-time</option>
+                        <option value="retired">Retired</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>How did you hear about our site?</legend>
+                <input type="radio" name="hear" value="socialMedia" required />Social media
+                <input type="radio" name="hear" value="friend" />Friend
+                <input type="radio" name="hear" value="searchEngine" />Search engine
+                <input type="radio" name="hear" value="other" />Other
+            </fieldset>
+            <fieldset>
+                <legend>Tell us what you think</legend>
+                <label for="comments">
+                    <textarea name="comments" id="" cols="30" rows="5" required placeholder="Don't be shy"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Submit</legend>
+                <input type="checkbox" />I am not a robot <br />
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </main>
+    <aside>
+        <h2>Type of watermelons</h2>
+        <ul>
+            <li>Italian</li>
+            <li>Mexican</li>
+            <li>French</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&COPY; 2023 Santiago Peña 8859281</p>
+    </footer>
+</body>
+
+</html>
